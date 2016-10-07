@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/addbutton"/>
+
+    <Button
+        android:id="@+id/minusButton"
+
+        android:elevation="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/minusbutton"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:text="Saldo: R$ 565,00"
+        android:textAlignment="center"
+        android:elevation="5dp"
+        android:textSize="20dp"
+        android:textColor="@color/WhiteFont"
+        android:textStyle="bold"
+        android:background="@color/TotalBackgroundPositive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:text="Entrada: R$ 2000,00"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="@color/TotalBackgroundPositive"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_marginBottom="130dp"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:text="Saida: R$ 1435,00"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="@color/TotalBackgroundNegative"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_marginBottom="105dp"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"
+        android:layout_width="300dp"
+        android:layout_height="280dp"
+        android:background="@drawable/graficooverview"/>
+
+
+</RelativeLayout>
